@@ -8,6 +8,8 @@ package Sorting;
     [9,13,20,24,52,46] step 5: now avoiding 9,13,20,24 the smallest number is 120 swap(46,52)
     FINAL ANSWER IS -:[9,13,20,24,46,52] 
  */
+
+ //Time Complexity is O(n^2)
 import java.util.Scanner;
 public class SelectionSort {
     static void selection_sort(int arr[],int n){
