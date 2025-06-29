@@ -1,4 +1,4 @@
-package Sorting;
+
 /*
 The Bubble sort takes the maximun element to the last position
 Q)[13,46,24,52,20,9]
@@ -41,7 +41,7 @@ public class BubbleSort {
         int n=sc.nextInt();
         int []arr=new int[n];
         for(int i=0;i<n;i++){
-            System.out.print("Enter element "+i+" :");
+            System.out.print("Enter element "+(i+1)+" :");
             arr[i]=sc.nextInt();
         }
         bubble(arr, n);

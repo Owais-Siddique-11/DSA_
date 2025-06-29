@@ -1,4 +1,3 @@
-package Sorting;
 /*
  Suppose we want to sort the array [5, 2, 9, 1, 5, 6] using insertion sort:
 
@@ -37,7 +36,7 @@ public class InsertionSort {
         int n = sc.nextInt();
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
-            System.out.print("Enter element " + i + ": ");
+            System.out.print("Enter element " + (i+1) + ": ");
             arr[i] = sc.nextInt();
         }
         sort(arr, n);

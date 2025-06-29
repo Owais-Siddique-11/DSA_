@@ -1,4 +1,3 @@
-package Sorting;
 /*
  In Selection Sort we choose the smallest number in array and swap it to the first position
  eg)[13,46,24,52,20,9] step 1: the smallest number is 9 so swapping it with 13
